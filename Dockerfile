@@ -31,6 +31,6 @@ FROM nginxinc/nginx-unprivileged:1.27.4-alpine3.21-slim
 COPY --from=builder /app/nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /app/dist/data-dashboard/browser /app
 
-EXPOSE 8080
+EXPOSE 8050
 
 CMD ["nginx", "-g", "daemon off;"]
