@@ -1,6 +1,8 @@
 {
   "healthCheckIntervalSeconds": 30,
   "enableUserConfig": false,
+  "appTitle": "TEMS Dashboard",
+  "initialTheme": "dim",
   "menuItems": [
     {
       "text": "Home",
